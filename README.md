@@ -8,7 +8,7 @@ The goal was to refactor existing HTML and CSS code for better accessibility and
 
 ## Installation
 
-N/A
+[Github Pages link.](https://flying-tadpole.github.io/BootcampChallenge1/#social-media-marketing)
 
 ## Credits
 
