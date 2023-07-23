@@ -1,3 +1,4 @@
+/* sets rules for width and height behaviors for entire file */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/*  */
+/* sets style for header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -69,33 +70,25 @@ p {
     background-position: center;
 }
 
-/* sets image position to the left */
+/* sets image size and position to the left */
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
-/* sets image position to the right */
+/* sets image size and position to the right */
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
+/* sets display properties for article block */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
 }
 
 /* styling for article blocks */
@@ -108,13 +101,21 @@ article {
     color: #ffffff;
 }
 
-article img {
-    max-height: 200px;
-}
-
 article h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* sets display properties for aside blocks */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
 
 /* styling for aside blocks */
